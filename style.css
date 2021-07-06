@@ -6,11 +6,11 @@ body {
     font-family: 'Montserrat', sans-serif;;
     font-size: 25px;
 }
-menu {
+ul {
     color: white;
     padding: 15px 0px 20px 15px;
     background-color: #0A0D16;
-}
+}   
 li {
     display: inline;
     padding: 10px;
@@ -21,7 +21,7 @@ li {
     color: #FA994C;
 }
 #title {
-    margin-right: 450px;
+    margin-right: 400px;
     font-size: 30px;
 }
 .menu-link {
@@ -32,10 +32,14 @@ li {
     color: #FA994C;
 }
 #search {
-    background-color: #ff9034;
+    background-color: white;
     border-radius: 10px;
     padding: 7px 15px;
-    border: none;
+    border: 2px solid #FA994C;
+    transition: .5s;
+}
+#search:hover {
+    transform: scale(1.1);
 }
 /*1st-------------Section*/
 #sec1 {
@@ -110,7 +114,7 @@ li {
 }
 /*3nd---------------Section*/
 #sec3 {
-    margin-top: 100px;
+    margin: 100px auto 0px;
 }
 #sec3 h2 {
     text-align: center;
@@ -124,16 +128,19 @@ li {
 }
 #food-items {
     display: flex;
-    margin: 0px 75px;
+    margin: 0px auto;
+    max-width: fit-content;
+
 }
 .food-items-box {
     padding: 20px;
     border-radius: 40px;
     margin: 20px;
     box-shadow: 1px 1px 25px rgb(204, 204, 204);
+    max-width: 400px;
 }
 .food-items-box img {
-    width: 375px;
+    max-width: 400px;
 }
 .food-items-box h3 {
     margin: 25px 0px 15px;
@@ -161,6 +168,59 @@ li {
 #sec4-activity p {
     font-size: 18px;
 }
+/*Section--------5*/
+#sec5-customers-reviews h4 {
+    text-align: center;
+    font-size: 40px;
+}
+.review-main {
+    background-color: white;
+    width: 1200px;
+    border-radius: 10px;
+    padding: 25px 0px;
+    margin: 0px auto 50px;
+}
+.each-review {
+    display: inline-block;
+}
+.each-review-details {
+    display: flex;
+    width: 575px;
+    text-align: left;
+    border: 1px solid rgb(226, 226, 226);
+    border-radius: 5px;
+    margin: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.each-review-details:hover {
+    border: 1px solid #FA994C; 
+}
+.each-review-details img {
+    margin-top: 10px;
+    margin-right: 20px;
+    border-radius: 100px;
+    box-sizing: border-box;
+}
+.each-review-details img:hover {
+    border: 1px solid #FA994C;
+}
+.each-review-details p {
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+.each-review-details a {
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: block;
+    font-size: 10px;
+    font-weight: 900;
+    color: black;
+}
+.each-review-details a:hover {
+    color: #1DA1F2;
+}
+/*Footer-----------*/
 footer {
     text-align: center;
     background-color: #0A0D16;
