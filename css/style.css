@@ -27,6 +27,7 @@ header {
 .navs {
     display: flex;
     list-style: none;
+    padding-left: 0;
 }
 li {
     margin: 0px 7px;
