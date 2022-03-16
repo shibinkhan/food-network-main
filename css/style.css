@@ -153,7 +153,7 @@ a:hover {
 .reviews {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    width: 92%;
+    width: 90%;
     grid-gap: 25px;
     justify-content: center;
     margin: 0 auto;
@@ -173,5 +173,10 @@ a:hover {
 }
 .review-text {
     margin-bottom: 20px;
+}
+.see-more-reviews {
+    width: 90%;
+    margin: 10px auto;
+
 }
 /* footer */
