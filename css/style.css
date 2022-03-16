@@ -7,15 +7,20 @@ header {
     color: white;
     padding: 10px;
 }
-#title-food {
-    color: rgb(255, 99, 43);
-}
 .nav-bar {
     margin: 0 auto;
     width: 80%;
     display: flex;
     justify-content: space-between;
     
+}
+#title-food {
+    color: rgb(255, 99, 43);
+}
+.search {
+    border: 1px solid rgb(255, 99, 43);
+    border-radius: 5px;
+    pa
 }
 .navs {
     display: flex;
@@ -28,4 +33,7 @@ li {
 a {
     text-decoration: none;
     color: white;
+}
+a:hover {
+    color: rgb(255, 99, 43);
 }
