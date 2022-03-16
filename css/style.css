@@ -227,9 +227,6 @@ li {
     color: rgb(219, 219, 219);
 }
 .footer {
-    background-image: url(../img/expx-a.png);
-    background-repeat: no-repeat;
-    background-position: right;
     text-align: center;
     padding: 25px 0;
 }
