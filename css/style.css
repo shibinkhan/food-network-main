@@ -74,3 +74,4 @@ a:hover {
 }
 .about {
     background-image: url(../img/7.png);
+    background-repeat: no-repeat;
