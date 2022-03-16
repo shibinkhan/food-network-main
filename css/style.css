@@ -48,3 +48,12 @@ a:hover {
     width: 80%;
     margin: 0 auto;
 }
+.banner-items {
+    display: flex;
+}
+.banner-half {
+    width: 50%;
+}
+.banner-img {
+    width: 660px;
+}
