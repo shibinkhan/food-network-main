@@ -92,7 +92,7 @@ a:hover {
     background-image: url(../img/7.png);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 1280px;
+    background-size: cover;
 }
 .about {
     width: 1200px;
