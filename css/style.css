@@ -49,17 +49,17 @@ a:hover {
     display: flex;
     align-items: center;
     margin: 0 auto;
-    justify-content: space-between;
+    justify-content: center;
 }
 .banner-half {
-    width: 50%;
+    width: 45%;
 }
 .banner-title {
     margin: 20px 0;
     font-size: 60px;
 }
 .order-btn, .contact-btn {
-    background-color: rgb(255, 99, 43);
+    background-image: linear-gradient(rgb(248, 136, 96), rgb(255, 0, 0));
     border: none;
     border-radius: 30px;
     margin: 20px 0;
@@ -70,6 +70,7 @@ a:hover {
     width: 400px;
 }
 /* about */
+.about-main {
+}
 .about {
     
-}
