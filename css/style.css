@@ -119,8 +119,14 @@ a:hover {
     margin: 20px 0 10px;
 }
 /* show off */
-
-
+.show-off {
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 0px 30px rgb(192, 192, 192);
+}
+.show-off-items {
+    margin: 50px;
+}
 /* customers review */
 
 
