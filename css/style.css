@@ -211,13 +211,13 @@ a:hover {
 }
 /* footer */
 .footer-main {
+    background-color: black;
+    color: rgb(219, 219, 219);
+}
+.footer {
     background-image: url(../img/expx-a.png);
     background-repeat: no-repeat;
     background-position: right;
-}
-.footer {
-    background-color: black;
-    color: rgb(219, 219, 219);
     text-align: center;
     padding: 25px 0;
 }
