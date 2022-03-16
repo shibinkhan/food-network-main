@@ -183,10 +183,18 @@ a:hover {
 .review-text {
     margin-bottom: 20px;
 }
+.reviewer a {
+    text-decoration: none;
+    color: black;
+}
 .see-more-reviews {
     width: 90%;
     margin: 10px auto;
     margin-bottom: 50px;
+    color: black;
+}
+.see-more-reviews a {
+    text-decoration: none;
     color: black;
 }
 /* footer */
@@ -195,8 +203,4 @@ footer {
     color: rgb(219, 219, 219);
     text-align: center;
     padding: 100px 0;
-}
-a {
-    text-decoration: none;
-    color: white;
 }
