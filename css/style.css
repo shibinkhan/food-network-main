@@ -7,6 +7,9 @@ header {
     color: white;
     padding: 10px;
 }
+#title-food {
+    color: rgb(255, 99, 43);
+}
 .nav-bar {
     margin: 0 auto;
     width: 80%;
