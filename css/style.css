@@ -87,8 +87,9 @@ li {
     border: none;
     border-radius: 30px;
     margin: 20px 0;
-    padding: 10px 25px;
+    padding: 10px 30px;
     color: white;
+    font-size: 18px;
 }
 .btn-link {
     text-decoration: none;
