@@ -44,9 +44,6 @@ a:hover {
 .skip {
     color: rgb(255, 99, 43);
 }
-.banner {
-
-}
 .banner-items {
     width: 1200px;
     display: flex;
@@ -64,9 +61,9 @@ a:hover {
 .order-btn {
     background-color: rgb(255, 99, 43);
     border: none;
-    border-radius: 5px;
+    border-radius: 30px;
     margin: 20px 0;
-    padding: 10px 30px;
+    padding: 10px 25px;
 }
 .banner-img {
     float: right;
