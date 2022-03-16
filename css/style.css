@@ -140,6 +140,33 @@ a:hover {
     font-size: 50px;
 }
 /* customers review */
-
+.review-main {
+    width: 1200px;
+    margin: 0 auto;
+    justify-content: center;
+}
+.review-title {
+    text-align: center;
+}
+.reviews {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 94%;
+    justify-content: center;
+    margin: 0 auto;
+}
+.review {
+    display: flex;
+    border: 1px solid;
+    margin: 20px;
+}
+.review-right {
+    margin-left: 20px;
+}
+.review-img {
+    width: 100px;
+    border-radius: 50%;
+    margin: ;
+}
 
 /* footer */
