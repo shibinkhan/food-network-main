@@ -57,7 +57,8 @@ a:hover {
     width: 50%;
 }
 .order-btn {
-    
+    background-color: rgb(255, 99, 43);
+    border: none;
 }
 .banner-img {
     float: right;
