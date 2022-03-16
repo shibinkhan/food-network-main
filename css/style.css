@@ -45,6 +45,7 @@ a:hover {
     color: rgb(255, 99, 43);
 }
 .banner {
+
 }
 .banner-items {
     width: 1200px;
@@ -55,6 +56,10 @@ a:hover {
 }
 .banner-half {
     width: 50%;
+}
+.banner-title {
+    margin: 20px 0;
+    font-size: 60px;
 }
 .order-btn {
     background-color: rgb(255, 99, 43);
