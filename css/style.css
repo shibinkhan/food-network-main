@@ -147,18 +147,22 @@ a:hover {
 }
 .review-title {
     text-align: center;
+    margin-bottom: 20px;
+    font-size: 30px;
 }
 .reviews {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    width: 94%;
+    width: 92%;
+    grid-gap: 25px;
     justify-content: center;
     margin: 0 auto;
 }
 .review {
     display: flex;
-    border: 1px solid;
-    margin: 20px;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0px 0px 30px rgb(192, 192, 192);
 }
 .review-right {
     margin-left: 20px;
@@ -166,7 +170,8 @@ a:hover {
 .review-img {
     width: 100px;
     border-radius: 50%;
-    margin: ;
 }
-
+.review-text {
+    margin-bottom: 20px;
+}
 /* footer */
