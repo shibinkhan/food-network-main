@@ -16,9 +16,14 @@ header {
     align-items: center;
     
 }
+.nav-bar h2 a {
+    text-decoration: none;
+    color: white;
+}
 #title-food {
     color: rgb(255, 99, 43);
 }
+
 .search {
     border: 1px solid rgb(255, 99, 43);
     border-radius: 5px;
@@ -33,7 +38,7 @@ header {
 li {
     margin: 0px 7px;
 }
-a {
+.nav-link {
     text-decoration: none;
     color: rgb(219, 219, 219);
 }
@@ -64,6 +69,10 @@ a:hover {
     border-radius: 30px;
     margin: 20px 0;
     padding: 10px 25px;
+    color: white;
+}
+.btn-link {
+    text-decoration: none;
     color: white;
 }
 .banner-img {
@@ -178,6 +187,7 @@ a:hover {
     width: 90%;
     margin: 10px auto;
     margin-bottom: 50px;
+    color: black;
 }
 /* footer */
 footer {
@@ -185,4 +195,8 @@ footer {
     color: rgb(219, 219, 219);
     text-align: center;
     padding: 100px 0;
+}
+a {
+    text-decoration: none;
+    color: white;
 }
