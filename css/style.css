@@ -9,7 +9,7 @@
 header {
     background-color: rgb(27, 27, 27);
     color: rgb(219, 219, 219);
-    padding: 10px 0px;
+    padding: 20px 0px;
 }
 .nav-bar {
     margin: 0 auto;
@@ -83,9 +83,12 @@ a:hover {
     width: 400px;
 }
 /* about */
-.about {
+.about-main {
     background-image: url(../img/7.png);
     background-repeat: no-repeat;
+    background-position: center;
+}
+.about {
     width: 1200px;
     display: flex;
     align-items: center;
