@@ -10,7 +10,7 @@ header {
 }
 .nav-bar {
     margin: 0 auto;
-    width: 80%;
+    width: 1200px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -45,15 +45,18 @@ a:hover {
     color: rgb(255, 99, 43);
 }
 .banner {
-    width: 80%;
-    margin: 0 auto;
 }
 .banner-items {
+    width: 1200px;
     display: flex;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: space-between;
 }
 .banner-half {
     width: 50%;
 }
 .banner-img {
-    width: 660px;
+    float: right;
+    width: 400px;
 }
