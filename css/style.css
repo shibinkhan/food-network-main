@@ -64,6 +64,7 @@ a:hover {
     border-radius: 30px;
     margin: 20px 0;
     padding: 10px 25px;
+    color: white;
 }
 .banner-img {
     float: right;
@@ -85,6 +86,10 @@ a:hover {
 .about-half {
     width: 40%;
 }
+.about-me-title {
+    margin-bottom: 15px;
+    font-size: 50px;
+}
 /* recipies */
 .recipies {
     width: 1200px;
@@ -93,6 +98,7 @@ a:hover {
 }
 .recipies-title {
     text-align: center;
+    font-size: 30px;
 }
 .recipies-about {
     width: 50%;
